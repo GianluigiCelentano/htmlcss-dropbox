@@ -36,14 +36,14 @@ ul {
 }
 li {
     display: inline-block;
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 30px;
 }
 .inizia {
     background-color: #0061ff;
     color: white;
     width: 80px;
-    font-size: 20px;
+    font-size: 16px;
     padding: 5px;
     text-align: center;
     top: 0;
@@ -68,7 +68,7 @@ h5 {
     font-size: 30px;
     font-weight: normal;
 }
-.start {
+.start, .first-try {
     color: white;
     background-color: #0061ff;
     text-align: center;
@@ -102,9 +102,45 @@ h5 {
 }
 .tab-1, .tab-2, .tab-3 {
     width: 25%;
-    height: 700px;
+    height: 850px;
     border: solid 1px lightgrey;
+    text-align: center;
+    padding: 10px;
 }
 .tab-2 {
     margin-left: 12.5%;
+}
+.single, .team, .price {
+    font-size: 18px;
+    font-weight: bold;
+}
+hr {
+    border: solid 1px lightgrey;
+}
+.pr  {
+    font-size: 30px;
+    font-weight: bold;
+}
+.price, .utent, .space, .function {
+    font-size: 15px;
+}
+.month {
+    color: lightgrey;
+}
+.first-try {
+    font-size: 16px;
+    width: 90%;
+    margin-left: 12px;
+}
+.main-event {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 12px;
+}
+ .check {
+     font-size: 16px;
+    color: #0061ff;
+}
+.check-list {
+    padding-top: 10px;
 }
