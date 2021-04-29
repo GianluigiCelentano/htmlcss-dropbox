@@ -16,10 +16,17 @@
 .nav-bar {
     width: 100%;
     height: 70px;
-    padding: 20px;
+    padding: 15px;
+}
+.logo {
+    margin-top: 4px;
 }
 ul {
     list-style: none;
+}
+.ok {
+    height: 33px;
+    line-height: 33px;
 }
 .fl {
     float: left;
@@ -34,6 +41,7 @@ li {
 }
 .inizia {
     background-color: #0061ff;
+    color: white;
     width: 80px;
     font-size: 20px;
     padding: 5px;
@@ -79,4 +87,16 @@ h5 {
     height: 60%;
     width: 60%;
     padding-top: 60px;
+}
+.middle-column {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+.start-column {
+    font-size: 50px;
+}
+.billing {
+    padding-left: 150px;
+    font-size: 20px;
 }
