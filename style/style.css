@@ -89,19 +89,22 @@ h5 {
     padding-top: 60px;
 }
 .middle-column {
-    width: 70%;
+    width: 55%;
     margin: 0 auto;
     padding-top: 150px;
 }
 .start-column {
-    font-size: 50px;
+    font-size: 45px;
 }
 .billing {
-    padding-left: 150px;
+    padding-left: 50px;
     font-size: 20px;
 }
 .tab-1, .tab-2, .tab-3 {
     width: 25%;
     height: 700px;
     border: solid 1px lightgrey;
+}
+.tab-2 {
+    margin-left: 12.5%;
 }
