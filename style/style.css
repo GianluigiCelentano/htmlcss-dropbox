@@ -52,5 +52,31 @@ h1 {
     text-align: center;
     font-size: 70px;
     padding-top: 30px;
-    float: left;
+}
+.small-desc {
+    width: 40%;
+}
+h5 {
+    font-size: 30px;
+    font-weight: normal;
+}
+.start {
+    color: white;
+    background-color: #0061ff;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    width: 60%;
+}
+.cancel {
+    font-size: 20px;
+    padding-top: 10px;
+}
+.under-arrow {
+    font-size: 80px;
+}
+.jumbo {
+    height: 60%;
+    width: 60%;
+    padding-top: 60px;
 }
