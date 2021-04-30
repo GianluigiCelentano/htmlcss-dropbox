@@ -24,7 +24,7 @@
 ul {
     list-style: none;
 }
-.ok {
+.nav-left, .nav-right {
     height: 33px;
     line-height: 33px;
 }
@@ -34,7 +34,7 @@ ul {
 .fr {
     float: right;
 }
-li {
+.nav-bar li {
     display: inline-block;
     font-size: 16px;
     padding-left: 30px;
@@ -68,7 +68,7 @@ h5 {
     font-size: 30px;
     font-weight: normal;
 }
-.start, .first-try {
+.start, .first-try, .contact {
     color: white;
     background-color: #0061ff;
     text-align: center;
@@ -102,17 +102,19 @@ h5 {
 }
 .tab-1, .tab-2, .tab-3 {
     width: 25%;
-    height: 850px;
+    height: 950px;
     border: solid 1px lightgrey;
-    text-align: center;
     padding: 10px;
 }
 .tab-2 {
     margin-left: 12.5%;
 }
-.single, .team, .price {
+.single, .price {
     font-size: 18px;
     font-weight: bold;
+}
+.single {
+    text-align: center;
 }
 hr {
     border: solid 1px lightgrey;
@@ -138,9 +140,37 @@ hr {
     margin-left: 12px;
 }
  .check {
-     font-size: 16px;
+    font-size: 16px;
     color: #0061ff;
+    float: left;
+    height: 25px;
+    margin-right: 10px;
 }
 .check-list {
-    padding-top: 10px;
+    float: left;
+    width: 80%;
+}
+.check-list-1 li {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.tab-4 {
+    width: 100%;
+    height: 250px;
+    border: solid 1px lightgrey;
+    float: left;
+    margin-top: 50px;
+    padding: 10px;
+}
+.contact {
+    width: 30%;
+}
+.tab-4-price {
+    font-size: 20px;
+    font-weight: bold;
+}
+.partner {
+    height: 50%;
+    width: 50%;
+    float: left;
 }
