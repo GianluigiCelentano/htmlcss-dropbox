@@ -202,10 +202,63 @@ hr {
     text-align: center;
 }
 .operations-img {
-    width: 30%;
-    height: 30%;
-    float: left;
+    width: 80%;
 }
 .operations li {
+    width: calc(100% / 3 - 20px);
+    float: left;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.description-operations {
+    height: 50px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.over-title {
+    font-size: 45px;
+    font-weight: bold;
+}
+.under-title {
+    margin-top: 200px;
+}
+.client-block li {
+    width: calc(100% / 3 - 5px);
     display: inline-block;
+}
+.first-4 {
+    height: 500px;
+}
+.center-clients {
+    height: 500px;
+    background-color: #f5f5f5;
+}
+.last-4 {
+    height: 500px;
+}
+.designit, .asu, .uf, .topps, .world, .hearst, .lonely, .clear {
+    background-color: #a2d39b;
+    width: 50%;
+    height: 50%;
+}
+.asu {
+    background-color: #61082b;
+}
+.uf {
+    background-color: #0093ce;
+}
+.topps {
+    background-color: #ff1c1c;
+}
+.world {
+    background-color: #d5001f;
+}
+.hearst {
+    background-color: #b4d0e7;
+}
+.lonely {
+    background-color: #0d2481;
+}
+.clear {
+    background-color: #ffd830;
 }
