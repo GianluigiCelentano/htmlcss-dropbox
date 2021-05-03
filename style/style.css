@@ -222,21 +222,18 @@ hr {
 .under-title {
     margin-top: 200px;
 }
-.client-block {
-    width: calc(100% - 3);
-}
 .first-4 {
+    width: calc(100% / 3);
     height: 500px;
-    width: 500px;
 }
 .center-clients {
     height: 500px;
-    width: 500px;
+    width: calc(100% / 3);
     background-color: #f5f5f5;
 }
 .last-4 {
     height: 500px;
-    width: 500px;
+    width: calc(100% / 3);
 }
 .designit, .asu, .uf, .topps, .world, .hearst, .lonely, .clear {
     width: 150px;
@@ -267,7 +264,38 @@ hr {
     background-color: #ffd830;
 }
 .size-clients-1, .size-clients-2, .size-clients-3, .size-clients-4, .size-clients-5, .size-clients-6, .size-clients-7, .size-clients-8 {
-    padding: 10%;
-    width: 250px;
-    height: 250px;
+    padding-left: 12.5%;
+    padding-top: 10%;
+    width: 50%;
+    height: 50%;
+}
+.inside-center-clients {
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.inside-center-p {
+    width: 70%;
+    margin-left: 50px;
+}
+.background-bring-db {
+    background-color: #b4d0e7;
+    width: 100%;
+    height: 400px;
+}
+.content-bring-db {
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 200px;
+    padding-top: 200px;
+    color: #61082b;
+}
+.start-free-trial {
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 1200px;
+    text-align: center;
 }
