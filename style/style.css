@@ -189,9 +189,9 @@ hr {
     font-weight: normal;
 }
 .find {
+    background-color: white;
     width: 150px;
     height: 30px;
-    border: 1px solid black;
     text-align: center;
 }
 .operations {
@@ -295,6 +295,7 @@ hr {
 }
 .start-free-trial {
     background-color: white;
+    font-size: 15px;
     padding: 20px;
     margin-top: 35px;
     margin-left: 400px;
