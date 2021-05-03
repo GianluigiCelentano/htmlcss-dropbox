@@ -283,6 +283,7 @@ hr {
     background-color: #b4d0e7;
     width: 100%;
     height: 400px;
+    position: relative;
 }
 .content-bring-db {
     font-size: 45px;
@@ -290,11 +291,53 @@ hr {
     margin-left: 200px;
     padding-top: 200px;
     color: #61082b;
+    position: absolute;
 }
 .start-free-trial {
     background-color: white;
     padding: 20px;
-    line-height: 1px;
-    margin-left: 1200px;
+    margin-top: 35px;
+    margin-left: 400px;
     text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.faq-container {
+    width: 50%;
+    margin: 0 auto;
+}
+.frequently {
+    font-size: 40px;
+    font-weight: bold;
+}
+.faq-container li {
+    font-size: 20px;
+}
+.footer-container {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+.footer-content {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.footer-content li {
+    color: white;
+    padding-top: 10px;
+}
+.footer-content div {
+    color: white;
+    font-weight: bold;
+}
+.footer-content ul {
+    display: inline-block;
+    width: 150px;
+}
+.italian {
+    color: grey;
+    margin-left: 570px;
 }
