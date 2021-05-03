@@ -222,43 +222,52 @@ hr {
 .under-title {
     margin-top: 200px;
 }
-.client-block li {
-    width: calc(100% / 3 - 5px);
-    display: inline-block;
+.client-block {
+    width: calc(100% - 3);
 }
 .first-4 {
     height: 500px;
+    width: 500px;
 }
 .center-clients {
     height: 500px;
+    width: 500px;
     background-color: #f5f5f5;
 }
 .last-4 {
     height: 500px;
+    width: 500px;
 }
 .designit, .asu, .uf, .topps, .world, .hearst, .lonely, .clear {
-    background-color: #a2d39b;
-    width: 50%;
-    height: 50%;
+    width: 150px;
+    height: 150px;
 }
-.asu {
+.size-clients-1 {
+    background-color: #a2d39b;
+}
+.size-clients-2 {
     background-color: #61082b;
 }
-.uf {
+.size-clients-3 {
     background-color: #0093ce;
 }
-.topps {
+.size-clients-4 {
     background-color: #ff1c1c;
 }
-.world {
+.size-clients-5 {
     background-color: #d5001f;
 }
-.hearst {
+.size-clients-6 {
     background-color: #b4d0e7;
 }
-.lonely {
+.size-clients-7 {
     background-color: #0d2481;
 }
-.clear {
+.size-clients-8 {
     background-color: #ffd830;
+}
+.size-clients-1, .size-clients-2, .size-clients-3, .size-clients-4, .size-clients-5, .size-clients-6, .size-clients-7, .size-clients-8 {
+    padding: 10%;
+    width: 250px;
+    height: 250px;
 }
